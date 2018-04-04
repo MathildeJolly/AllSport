@@ -1,0 +1,394 @@
+* {
+    font-family: Arial;
+}
+
+html,body, footer {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: Teal;
+    font-family: 'Helvetica', serif;
+    font-size: 230%;
+    letter-spacing: .10em;
+    text-shadow: 0px -1px lightblue, 1px 1px lightblue, -3px 0 4px lightblue;
+}
+
+h3 {
+  font-size: 122%;
+  font-family:'Helvetica', Arial, serif;
+  color: SlateGray ; 
+  font-weight:lighter;
+  text-align:center;
+  display:inline;
+}
+
+h5 {
+    font-size: 150%;
+  font-family:'Helvetica', Arial, serif;
+  color: Tomato ; 
+  padding:5px;
+  margin-left: 11%;
+  font-weight:bold;
+  display:inline;
+}
+
+h5:hover {
+  color: rgb(150, 30, 5);
+}
+
+
+p {
+  font-size: 1em;
+  font-family:'Helvetica', Arial, serif;
+  padding:0px;
+  font-weight:lighter;
+  text-align:center;
+  display:inline;
+}
+
+a {
+    color: Teal;
+    text-decoration: none;
+}
+a:visited {
+    color: Teal;
+} 
+
+a:active {
+    color:white;
+}
+
+body {
+    background-image: url("../images/background.jpg");
+    background-attachment: fixed;
+}
+
+.nomutilisateur {
+    margin-top:0;
+    margin-left: 25px;
+}
+.page {
+    margin-top: 7%;
+    margin-right: 21.6%;
+    margin-left: 20%;
+    background-color: rgba(255,255,255,0.4);
+    padding: 5px;
+    margin-bottom: 3%;
+    box-shadow: 5px 5px 5px #888888;
+}
+
+.page2 {
+      margin-top: 10%;
+   margin-right: 2%;
+    margin-left: 2%;
+    background-color: rgba(255,255,255,0.4);
+    padding: 2%;
+    margin-bottom: 31px;
+
+}
+
+.rapport {
+  text-align: justify;
+  margin: 0.5%;
+  margin-top: 50px;
+  padding: 2%;
+  background-color: rgba(255,255,255,0.5);
+}
+
+fieldset {
+    background-color:rgba(255,255,255,0.5);
+}
+
+
+.avatar {
+    width: 20%;
+    float: right;
+    margin-right: 7%;
+    margin-top: -5%;
+}
+
+.logo {
+    margin-top: -7.2%;
+    width: 26%;
+    height: 140px;
+    float: right;
+    margin-right: 5%;
+}
+
+
+.infoprofil {
+    font-weight: lighter;
+    color: teal;
+    font-size: 20px;
+    margin-left: 3%;
+    display: inline; 
+}
+
+.infodynamique {
+    display: inline; 
+    font-weight: bold;
+    margin-right: 20%;
+    margin-left: 10px;
+}
+
+.lien {
+
+    color: Tomato;
+    text-decoration: none;
+    font-size: 100%;
+    display: inline;
+    margin: 3%;
+}
+
+.lien:hover {
+  color: rgb(150, 30, 5);
+}
+
+
+.infos {
+    margin: 2%;
+    padding: 2%;
+
+    background-color: rgba(0,128,128,0.1);
+ font-family: Blippo, fantasy;
+ box-shadow: 3px 3px 3px #888888;
+}
+
+.equipes {
+   margin: 2%;
+    padding: 2%;
+
+    background-color: rgba(0,128,128,0.1);
+ font-family: Blippo, fantasy;
+ box-shadow: 3px 3px 3px #888888;
+}
+.bordure {
+    margin-top: 3%;
+    padding: 1px;
+}
+
+.equipecadre, .pasEquipe {
+ background-color: rgba(0,128,128,0.1);
+ padding: 1.5%;
+ padding-left: 10px;
+ margin: 2%;
+ font-family: Blippo, fantasy;
+ box-shadow: 3px 3px 3px #888888;
+}
+
+.edit {
+    width: 3%;
+    float: right;
+    margin-top: 20Px;
+}
+
+.menu ul, .menuco ul {
+    margin: 0;
+    padding: 0;
+
+    list-style-type: none;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+}
+
+.menu a:hover, .menuco a:hover {
+    background-color: #008080;
+    text-align: center;
+}
+
+.menu li, .menuco li {
+    display: inline;
+    border:none;
+}
+
+
+.btnA {
+    margin-left: 20%;
+}
+
+.btnC {
+    margin-left: 30%;
+} 
+
+
+.menu li a{
+    display: inline-block;
+    color: white;
+
+    
+    text-decoration: none;
+    padding: 1.5%;
+    font-size: 80%;
+
+    transition-property: background-color;
+    transition-duration: 0.4s;
+    transition-delay: 0.1s;
+
+}
+
+.menuco li a {
+    display: inline-block;
+    color: white;
+
+    
+    text-decoration: none;
+    padding: 1.5%;
+    font-size: 80%;
+
+    transition-property: background-color;
+    transition-duration: 0.4s;
+    transition-delay: 0.1s;
+}
+input[type=text], [type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid lightblue;
+}
+
+input[type=text]:focus,[type=password]:focus {
+    border: 2px solid teal;
+}
+
+.btn {
+    background-color: rgba(119,136,153,0.8);
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.btn:hover {
+  background-color: rgba(51,51,51,0.7);
+}
+
+.error {
+    color: #DC143C;
+    border: solid 2px rgba(0,128,128,0.5);
+    background-color: rgba(255,255,255,0.5);
+    padding: 10px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-size: 80%;
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+    height: 35px;
+    line-height: 14px;
+}
+
+
+.liste,.sexe, .mixite {
+    background-color: white;
+}
+
+.listespan, .sexespan, .mixitespan {
+    display:block;
+    overflow-x:hidden;    
+    border:2px solid lightblue;   
+    background-color: white;
+    padding:10px;   
+    cursor:pointer;
+    width: 96.5%;
+}
+
+.listespan select,.sexespan select, .mixitespan select {    
+    border:0;    
+    min-width:100%;   
+    cursor:pointer;
+    color:black;
+    
+}
+
+
+.logo {
+    color: teal
+}
+
+.bulle {
+
+  border: 1px solid tomato;
+  margin-right: 60%;
+  margin-top: 1%;
+      float: right;
+  background-color: rgb(255,255,255);
+  padding: 8px;
+  border-radius: 20px;
+ text-decoration: none;
+}
+
+.bulleAnnuaire {
+    border: 1px solid tomato;
+    float: right;
+margin-top: -70px;
+margin-right: 20%;
+background-color: rgb(255,255,255);
+  padding: 8px;
+  border-radius: 20px;
+}
+
+.bulleRejoindreEquipe {
+  border: 1px solid tomato;
+ float: right;
+
+margin-top: -40px;
+margin-right: 70%;
+background-color: rgb(255,255,255);
+  padding: 8px;
+  border-radius: 20px;
+}
+
+a .infoAnnuaire {
+
+
+ float:right;
+ font-weight: bold;
+ font-size: 20px;
+ text-decoration: none;
+}
+
+
+a .infoCalendrier {
+
+ float:right;
+ font-weight: bold;
+ font-size: 20px;
+ text-decoration: none;
+}
+
+
+a span {
+    position:absolute;     
+     color:Tomato;
+     background:rgba(255,255,255,.8);
+     padding:15px;
+     border-radius:3px;
+     box-shadow:0 0 2px rgba(0,0,0,.5);
+    transform:scale(0) rotate(-12deg);
+    transition:all .25s;
+    transform:scale(1) rotate(-10); 
+    opacity:0;
+}
+
+a:hover span, a:focus span{
+     transform:scale(1) rotate(0);        
+     opacity:1;
+}
